@@ -26,8 +26,8 @@ public class PlayerScores : MonoBehaviour
 
     private string getLocalId;
 
-    private string dataBaseURL = "https://fir-project-e825d.firebaseio.com/users";
-    private string AuthKey = "AIzaSyBZ7Ch8_VvYZXTz_sJDa31rVAkhAMZjXFw";
+    private string dataBaseURL = "";
+    private string AuthKey = "";
 
     public fsSerializer serializer = new fsSerializer();
 
